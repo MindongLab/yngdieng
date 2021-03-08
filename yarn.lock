@@ -2457,12 +2457,12 @@
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.13.2.tgz#eb914c41c66af4606db786457a7b130634355e8f"
   integrity sha512-q5fGwjTY76MLNcYpF2zEu/y1Clu4DjdjhvJM9+yDKc3+3mBlbX+uiMJYiCz5b0oSYdJTlw1QSRptTYA7CID8EQ==
 
-"@bazel/jasmine@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@bazel/jasmine/-/jasmine-2.3.3.tgz#7221c3704e63a4b8b19a9c7c9dec4b0337f302e0"
-  integrity sha512-YAXSCSBQ51/Ep+PAIro9WnO1c47on4KJ3ISMLbBoowIsWVhXIRGVLUoRivIRE89yKX2vHE1+4OuwYpywgRQOZw==
+"@bazel/jasmine@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@bazel/jasmine/-/jasmine-3.2.2.tgz#e4c088d8267f83c4c718ac46e5923f549d47fef6"
+  integrity sha512-fSz0fRdk9IgyN/9Ietzasdp2QAhMGz/E4LKdiu+WyZrPjwd06zQ4ypb3DzzT1g+M/7NXJqV8X6ahTGQMrm/Rpw==
   dependencies:
-    c8 "~7.1.0"
+    c8 "~7.5.0"
     jasmine-reporters "~2.3.2"
 
 "@bazel/karma@2.3.2":
@@ -5600,14 +5600,14 @@ bytes@3.1.0:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
 
-c8@~7.1.0:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/c8/-/c8-7.1.2.tgz#3fd785e8d264175ceffe92c74607f5cfb12f018d"
-  integrity sha512-lCEwL9lbvWOQLxoLw8RF7PM8Cdj+rKxRp/PyWC9S8xASvYHRwXQ2gxzsNTgLhQM1Utc1YDAjzQYPQIxVEyelGg==
+c8@~7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/c8/-/c8-7.5.0.tgz#a69439ab82848f344a74bb25dc5dd4e867764481"
+  integrity sha512-GSkLsbvDr+FIwjNSJ8OwzWAyuznEYGTAd1pzb/Kr0FMLuV4vqYJTyjboDTwmlUNAG6jAU3PFWzqIdKrOt1D8tw==
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
     "@istanbuljs/schema" "^0.1.2"
-    find-up "^4.0.0"
+    find-up "^5.0.0"
     foreground-child "^2.0.0"
     furi "^2.0.0"
     istanbul-lib-coverage "^3.0.0"
@@ -5615,9 +5615,9 @@ c8@~7.1.0:
     istanbul-reports "^3.0.2"
     rimraf "^3.0.0"
     test-exclude "^6.0.0"
-    v8-to-istanbul "^4.1.2"
-    yargs "^15.0.0"
-    yargs-parser "^18.0.0"
+    v8-to-istanbul "^7.1.0"
+    yargs "^16.0.0"
+    yargs-parser "^20.0.0"
 
 cacache@15.0.5, cacache@^15.0.5:
   version "15.0.5"
@@ -16274,10 +16274,10 @@ uuid@^8.0.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
   integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
 
-v8-to-istanbul@^4.1.2:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-4.1.4.tgz#b97936f21c0e2d9996d4985e5c5156e9d4e49cd6"
-  integrity sha512-Rw6vJHj1mbdK8edjR7+zuJrpDtKIgNdAvTSAcpYfgMIw+u2dPDntD3dgN4XQFLU2/fvFQdzj+EeSGfd/jnY5fQ==
+v8-to-istanbul@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-7.1.0.tgz#5b95cef45c0f83217ec79f8fc7ee1c8b486aee07"
+  integrity sha512-uXUVqNUCLa0AH1vuVxzi+MI4RfxEOKt9pBgKwHbgH7st8Kv2P1m+jvWNnektzBh5QShF3ODgKmUFCf38LnVz1g==
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
@@ -16828,13 +16828,18 @@ yargs-parser@^13.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^18.0.0, yargs-parser@^18.1.1, yargs-parser@^18.1.2:
+yargs-parser@^18.1.1:
   version "18.1.3"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.3.tgz#be68c4975c6b2abf469236b0c870362fab09a7b0"
   integrity sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
+
+yargs-parser@^20.0.0:
+  version "20.2.6"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.6.tgz#69f920addf61aafc0b8b89002f5d66e28f2d8b20"
+  integrity sha512-AP1+fQIWSM/sMiET8fyayjx/J+JmTPt2Mr0FkrgqB4todtfa53sOsrSAcIrJRD5XS20bKUwaDIuMkWKCEiQLKA==
 
 yargs-parser@^20.2.2:
   version "20.2.4"
@@ -16857,23 +16862,6 @@ yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-yargs@^15.0.0:
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
-  integrity sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
-  dependencies:
-    cliui "^6.0.0"
-    decamelize "^1.2.0"
-    find-up "^4.1.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^4.2.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^18.1.2"
-
 yargs@^15.3.1:
   version "15.3.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.3.1.tgz#9505b472763963e54afe60148ad27a330818e98b"
@@ -16891,7 +16879,7 @@ yargs@^15.3.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.1"
 
-yargs@^16.1.1:
+yargs@^16.0.0, yargs@^16.1.1:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
