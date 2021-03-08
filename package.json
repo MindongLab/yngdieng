@@ -45,7 +45,7 @@
     "@babel/cli": "7.12.13",
     "@babel/core": "7.12.13",
     "@babel/preset-env": "7.12.13",
-    "@bazel/angular": "2.3.3",
+    "@bazel/angular": "3.2.2",
     "@bazel/bazelisk": "1.7.3",
     "@bazel/benchmark-runner": "0.1.0",
     "@bazel/buildifier": "3.5.0",

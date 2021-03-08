@@ -2408,10 +2408,10 @@
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
   integrity sha512-4Th98KlMHr5+JkxfcoDT//6vY8vM+iSPrLNpHhRyLx2CFYi8e2RfqPLdpbnpo0Q5lQC5hNB79yes07zb02fvCw==
 
-"@bazel/angular@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@bazel/angular/-/angular-2.3.3.tgz#f9f7eacf67cf897c44e772cac54e590d6bd19dc2"
-  integrity sha512-VOlQPzBIsEoQqqG/psecMHOJDEby477CxPUElctHwjncFIcj0Ge9gsoPXIVvQV5IS05EqBBWFjJiE4kABRBKjw==
+"@bazel/angular@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@bazel/angular/-/angular-3.2.2.tgz#59203f5559e2ba8a699e5a612739d86353d9721e"
+  integrity sha512-+oqrmiQMQ7TVaCigGPX5Pt20A+u7AbBdgZ7IuryBqXZuMNRgxv74LVWn3XRGNGOPE70sej4AO1YIwdWjgTwgKA==
   dependencies:
     "@angular-devkit/architect" "^0.901.7"
     "@bazel/bazelisk" "^1.4.0"
