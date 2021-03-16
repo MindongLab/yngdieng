@@ -54,7 +54,7 @@
     "@bazel/karma": "2.3.2",
     "@bazel/labs": "3.2.1",
     "@bazel/protractor": "2.3.2",
-    "@bazel/rollup": "2.3.2",
+    "@bazel/rollup": "2.3.3",
     "@bazel/terser": "2.3.2",
     "@bazel/typescript": "2.3.2",
     "@compodoc/compodoc": "1.1.11",
