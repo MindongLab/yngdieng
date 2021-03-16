@@ -52,7 +52,7 @@
     "@bazel/ibazel": "0.12.4",
     "@bazel/jasmine": "2.3.3",
     "@bazel/karma": "2.3.2",
-    "@bazel/labs": "3.2.1",
+    "@bazel/labs": "3.2.2",
     "@bazel/protractor": "2.3.2",
     "@bazel/rollup": "2.3.2",
     "@bazel/terser": "2.3.2",

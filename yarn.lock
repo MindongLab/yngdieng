@@ -2470,10 +2470,10 @@
   resolved "https://registry.yarnpkg.com/@bazel/karma/-/karma-2.3.2.tgz#4120618f7edd141b155f6f830fd0f04dc748a37c"
   integrity sha512-+FFpem1Ul/BtqNrom8y1xPIa1cPEZeBvpao8BRLfQt46r7Nk9u11KI8ylNFk+yIQVhFqAD3JBaL3sbLAU7BJ5Q==
 
-"@bazel/labs@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@bazel/labs/-/labs-3.2.1.tgz#9eee5c8e62601f0850569db6304c3257f7f6cbda"
-  integrity sha512-b/ta8kMRtU8jy8DBlPzlDk0gu5tkD3/2j8djEESXdwrbixduPcVYMI4NKw0DjZIYmw90uA3XxGUwFPcqm4luGA==
+"@bazel/labs@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@bazel/labs/-/labs-3.2.2.tgz#b736196bcb1b59629916684bdf861ba15b4cc305"
+  integrity sha512-Sky9sOzbPLuBqDRYfQ+AH7lDZLVS/3kqWpAuF3AODBZrSkm51mavg0zAD7cTIumdHAW/+g08BTTC54t+j9jrVg==
 
 "@bazel/protractor@2.3.2":
   version "2.3.2"
